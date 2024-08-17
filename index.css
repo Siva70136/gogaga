@@ -57,11 +57,15 @@ body {
 
 .body-section {
     background-image: url('https://as1.ftcdn.net/v2/jpg/08/19/62/88/1000_F_819628846_kwxL1B4J5nZEHbueNZE2UvtWEyNFRjEV.jpg');
-    height: 100vh;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+    height: 92vh;
 }
 
 .heading {
@@ -236,6 +240,7 @@ body {
     .box2 {
         flex-direction: column;
     }
+
 }
 
 @media screen and (max-width:768px) {
