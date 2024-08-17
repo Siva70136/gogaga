@@ -1,0 +1,253 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-container {
+    box-shadow: 1px 1px 10px 2px black;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 7px 20px 0px 20px;
+
+}
+
+.logo-container {
+    color: rgb(10, 238, 200);
+    letter-spacing: -5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.letter:nth-child(even) {
+    color: rgb(7, 241, 7);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 3px 5px 3px;
+}
+
+.icon {
+    margin-left: 10px;
+
+}
+
+/*https://as1.ftcdn.net/v2/jpg/08/19/62/88/1000_F_819628846_kwxL1B4J5nZEHbueNZE2UvtWEyNFRjEV.jpg*/
+
+.body-section {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/08/19/62/88/1000_F_819628846_kwxL1B4J5nZEHbueNZE2UvtWEyNFRjEV.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.heading {
+    font-weight: 700;
+
+}
+
+.disc {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.inner-section {
+    padding-top: 80px;
+    margin: 0px 30px 0px 30px;
+}
+
+.card-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: auto;
+}
+
+.card-header-section {
+    display: flex;
+    align-items: center;
+}
+
+.s-card1 {
+    border-radius: 16px;
+    background-color: black;
+    margin-right: 18px;
+    padding: 5px 12px 5px 12px;
+}
+
+.s-card2 {
+    margin-left: 15px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 18px;
+    color: black;
+    border: 1px solid black;
+}
+
+.card-middle-section {
+    display: flex;
+
+}
+
+.card-box1 {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    color: rgb(66, 66, 66);
+
+}
+
+.bottom {
+    color: black;
+    line-height: 2px;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    min-width: 200px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: auto;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: auto;
+}
+
+.inner-box {
+    margin-left: 30px;
+}
+.night{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    margin-left: 3px;
+}
+
+.ic {
+    color: black;
+    margin-left: 25px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: 10px;
+    background-color: black;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.search {
+    font-size: 40px;
+}
+
+.card-bottom-section {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.rating {
+    width: auto;
+    padding: 4px 7px 4px 7px;
+    border-radius: 16px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.rating-head {
+    padding-top: 20px;
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+.r5 {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.icons-sm-container {
+    display: none;
+}
+
+@media screen and (max-width:1062px) {
+    .card-middle-section {
+        flex-direction: column;
+    }
+
+    .body-section {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .box1{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .box2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .icons-sm-container {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 5px 3px 5px 3px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
