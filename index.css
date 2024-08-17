@@ -6,6 +6,7 @@ body {
 
 .nav-container {
     box-shadow: 1px 1px 10px 2px black;
+    padding-bottom: 2px;
 }
 
 .navbar-container {
@@ -19,7 +20,7 @@ body {
 
 .logo-container {
     color: rgb(10, 238, 200);
-    letter-spacing: -5px;
+    letter-spacing: -4px;
     font-size: 30px;
     font-weight: 600;
 }
@@ -53,8 +54,6 @@ body {
     margin-left: 10px;
 
 }
-
-/*https://as1.ftcdn.net/v2/jpg/08/19/62/88/1000_F_819628846_kwxL1B4J5nZEHbueNZE2UvtWEyNFRjEV.jpg*/
 
 .body-section {
     background-image: url('https://as1.ftcdn.net/v2/jpg/08/19/62/88/1000_F_819628846_kwxL1B4J5nZEHbueNZE2UvtWEyNFRjEV.jpg');
